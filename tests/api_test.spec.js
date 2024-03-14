@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('API Renaissance testing', async () => {
+test('API Renaissance basic functionality testing', async () => {
     const response = await fetch('https://cote-renaissance-be-develop.azurewebsites.net/graphql', {
         method: 'POST',
         headers: {
